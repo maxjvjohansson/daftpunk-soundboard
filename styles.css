@@ -37,11 +37,51 @@ header h1 {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 20px;
     text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    width: 50%;
+    max-width: 800px;
+}
+
+.button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+.button:nth-child(1) {background: linear-gradient(135deg, #ff5733, #ffbd33); }
+.button:nth-child(2) {background: linear-gradient(135deg, #0fcbb2, #16a8d1); }
+.button:nth-child(3) {background: linear-gradient(135deg, #22ca68, #0b9e23); }
+.button:nth-child(4) {background: linear-gradient(135deg, #aae33f, #ecd905); }
+.button:nth-child(5) {background: linear-gradient(135deg, #ca2ecd, #19b0d2); }
+.button:nth-child(6) {background: linear-gradient(135deg, #da2020, #c80fcb); }
+.button:nth-child(7) {background: linear-gradient(135deg, #f0e91a, #2fc30d); }
+.button:nth-child(8) {background: linear-gradient(135deg, #259dde, #0f42ba); }
+.button:nth-child(9) {background: linear-gradient(135deg, #ff5733, #ffbd33); }
+.button:nth-child(10) {background: linear-gradient(135deg, #0fcbb2, #16a8d1); }
+.button:nth-child(11) {background: linear-gradient(135deg, #22ca68, #0b9e23); }
+.button:nth-child(12) {background: linear-gradient(135deg, #aae33f, #ecd905); }
+.button:nth-child(13) {background: linear-gradient(135deg, #ca2ecd, #19b0d2); }
+.button:nth-child(14) {background: linear-gradient(135deg, #da2020, #c80fcb); }
+.button:nth-child(15) {background: linear-gradient(135deg, #f0e91a, #2fc30d); }
+.button:nth-child(16) {background: linear-gradient(135deg, #259dde, #0f42ba); }
+
+.button:hover {
+    filter: brightness(0.8);
 }
